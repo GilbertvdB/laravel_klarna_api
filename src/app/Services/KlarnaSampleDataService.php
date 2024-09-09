@@ -18,7 +18,7 @@ class KlarnaSampleDataService
      */
     public function __construct()
     {
-        $this->callback = config('klarna.api_base_url');
+        $this->callback = config('klarna.callback');
     }
 
     /**
